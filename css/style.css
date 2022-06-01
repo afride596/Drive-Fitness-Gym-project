@@ -1,0 +1,100 @@
+body {
+    font-family: "Space Mono", monospace;
+    /* css reset */
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url("barbell-g72754ca44_1920.jpg");
+    /* height: 7 */
+}
+.left {
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    /* width:56px; */
+    /* height:54px */
+}
+.left div {
+    text-align: center;
+    line-height: 0px;
+    font-size: 16px;
+}
+.left img {
+    /* filter: invert(100%); */
+    width: 98px;
+}
+.mid {
+    display: block;
+    /* margin: auto; */
+    /* border: 2px solid rgb(74, 248, 11); */
+    padding-bottom: 15px;
+    width: 900px;
+    height: 45px;
+    margin: 20px auto;
+}
+.right {
+        /* border: 2px solid rgb(232, 193, 20); */
+        position: absolute;
+        right: 75px;
+        top: 35px;
+        height: 62px;
+        width: 216px;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 26px;
+}
+.navbar li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+.btn {
+    font-family: "Space Mono", monospace;
+    margin: 3px 9px;
+    background-color: rgb(18, 17, 17);
+    color: rgb(252, 252, 252);
+    padding: 2px 7px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(33, 32, 32);
+}
+.container {
+    border: 2px solid rgb(233, 233, 233);
+    margin: 106px 88px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 25px;
+}
+
+.formgroup input {
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    display: block;
+    padding: 0px px;
+    width: 400px;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 9px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 64%;
+    margin: 19px auto;
+}
